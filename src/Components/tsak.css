@@ -1,0 +1,22 @@
+.task{
+    display: flex;
+    padding: 15px ;
+    border-radius: 5px;
+    align-items: center;
+    margin: 10px;
+}
+.task > div{
+    width: 100%;
+}
+.task button{
+    border-radius: 100%;
+    width: 30px;
+    height: 20px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.task button:hover{
+    background-color:crimson;
+}
